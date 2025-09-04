@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jellyfin.Controller" Version="10.10.7" />
+    <PackageReference Include="Jellyfin.Model" Version="10.10.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.11" />
+    <PackageReference Include="Otp.NET" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Emby.Server.Implementations">
+      <HintPath>C:\Users\Sten\Downloads\jellyfin-10.10.7\Emby.Server.Implementations\bin\Debug\net8.0\Emby.Server.Implementations.dll</HintPath>
+    </Reference>
+    <Reference Include="Jellyfin.Api">
+      <HintPath>C:\Users\Sten\Downloads\jellyfin-10.10.7\Jellyfin.Api\bin\Debug\net8.0\Jellyfin.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Jellyfin.Server.Implementations">
+      <HintPath>C:\Users\Sten\Downloads\jellyfin-10.10.7\Jellyfin.Server.Implementations\bin\Debug\net8.0\Jellyfin.Server.Implementations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
