@@ -25,6 +25,10 @@
     <Reference Include="Jellyfin.Server.Implementations">
       <HintPath>C:\Users\Sten\Downloads\jellyfin-10.10.7\Jellyfin.Server.Implementations\bin\Debug\net8.0\Jellyfin.Server.Implementations.dll</HintPath>
     </Reference>
+    <Reference Include="JellyfinLoaderStub">
+      <HintPath>..\JellyfinLoader\JellyfinLoaderStub\bin\Release\net8.0\JellyfinLoaderStub.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
 
 </Project>
